@@ -7,5 +7,6 @@ Created on Sun Feb 14 18:56:22 2021
 
 compra = float(input('Ingrese el valor de su compra: '))
 IVA = compra * 0.19
-valor_compra = (compra - IVA) * 0.95
+compra_descuento = compra * 0.95
+valor_compra = compra_descuento + IVA
 print(f'El valor final de su crompra es: {valor_compra} pesos')
