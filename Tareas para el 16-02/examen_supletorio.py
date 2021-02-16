@@ -11,4 +11,4 @@ exm_spl =  10.5 - (p_sem + s_sem)
 if exm_spl >5:
     print('Ya no puede ganar el semestre sin importar la nota en el examen supletorio')
 else: 
-    print(f'Para ganar el semestre necesita al menos un {exm_spl} en el examen supletorio')
+    print(f'Para ganar el semestre necesita al menos un {exm_spl:.2f} en el examen supletorio')

@@ -7,8 +7,9 @@ Created on Tue Feb 16 08:23:26 2021
 
 print('Bienvenido a la calculadora')
 n1 = float(input('Ingrese el primer número: '))
-n2 = float(input('Ingrese el segundo número: '))
 op = input('Ingrese el tipo de operación (+, -, /, *, **): ')
+n2 = float(input('Ingrese el segundo número: '))
+
 if op == '+':
     res = n1 + n2
     print(res)
