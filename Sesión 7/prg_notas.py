@@ -10,7 +10,7 @@ notas_lista = []
 est_rep_prom = 0
 est_gan_prom = 0
 x = 1
-while x <= num_est:
+for x in range(num_est):
     x = x+1
     nom_est = input('Ingrese el nombre del estudiante: ')
     n1= float(input('Ingrese la nota 1: '))
