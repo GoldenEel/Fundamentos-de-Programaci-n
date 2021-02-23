@@ -39,4 +39,4 @@ for x in range(num_est):
 grup_prom = grup_ac / num_est
 #Print de todos los puntos
 print('Otros calculos: ')
-print(f'El promedio del grupo fue {grup_prom: .2f} la nota máxima fue {nota_max} la minima fue {nota_min}\n{est_rep} estudiantes reprobaron, el promedio fue {est_rep_prom: .2f} \n{est_gan} estudiantes aprobaron, el promedio fue {est_gan_prom: .2f}')
+print(f'El promedio del grupo fue {grup_prom: .2f} la nota máxima fue {nota_max: .2f} la minima fue {nota_min: .2f}\n{est_rep} estudiantes reprobaron, el promedio fue {est_rep_prom: .2f} \n{est_gan} estudiantes aprobaron, el promedio fue {est_gan_prom: .2f}')
