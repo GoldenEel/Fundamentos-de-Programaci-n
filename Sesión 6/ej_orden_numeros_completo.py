@@ -19,9 +19,9 @@ if tipo == 1:
         else:
             print('No se puede ordenar, dos números son iguales')
         
-    elif n1>= n2 and n1>=n3:
+    elif n1 >= n2 and n1 >= n3:
       ord1 = n1
-      if n2>=n3:
+      if n2 >= n3:
         ord2 = n2
         ord3 = n3
         print(f'{ord1} - {ord2} - {ord3}')
@@ -55,9 +55,9 @@ elif tipo ==2:
             print('No se puede ordenar, todos los números son iguales')
         else:
             print('No se puede ordenar, dos números son iguales')
-    elif n1>= n2 and n1>=n3:
+    elif n1 >= n2 and n1>=n3:
       ord3 = n1
-      if n2>=n3:
+      if n2 >=n3:
         ord2 = n2
         ord1 = n3
         print(f'{ord1} - {ord2} - {ord3}')
