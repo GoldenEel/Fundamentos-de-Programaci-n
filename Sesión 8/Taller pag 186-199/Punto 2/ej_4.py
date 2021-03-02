@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Determinar la media de una lista indefinida de números positivos,
-terminados con un número negativo. 
+Determinar la media de una lista de números positivos terminada con un
+ número no positivo después del último número valido
 """
+#No es lo mismo que el ej_1 ? No entiendo la diferencia.
+#ej_1 :
 import numpy
 n_list = []
 x = True
