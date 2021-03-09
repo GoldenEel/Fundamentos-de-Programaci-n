@@ -16,8 +16,10 @@ promedio = 0
 sum_pos = 0
 sum_neg = 0
 prom_pos = 0
-for x in range(100):
+Cant_num = int(input('Cantidad de números aleatorios: '))
+for x in range(Cant_num):
     rand_num = random.randint(-100, 100)
+    print('Número: ',rand_num)
     if rand_num >0:
         num_pos = num_pos +1
         sum_pos = sum_pos + rand_num
@@ -34,6 +36,7 @@ for x in range(100):
             min_neg = rand_num
 prom_neg = sum_neg / num_neg
 prom_pos = sum_pos / num_pos
-promedio = (sum_pos + sum_neg)/100
-print(f'Promedio {promedio: .0f}\nPromedio negativos {prom_neg: .0f}\nPromedio positivos {prom_pos: .0f}')
+promedio = (sum_pos + sum_neg)/ Cant_num
+print(f'\n\nPromedio {promedio: .0f}\nPromedio negativos {prom_neg: .0f}\nPromedio positivos {prom_pos: .0f}')
 print(f'Máximo positivo {mayor_pos}\nMáximo negativo {mayor_neg}\nMinimo positivo {min_pos}\nMinimo negativo {min_neg}')
+print(f'Suma negativos {sum_neg}\nSuma positivos {sum_pos}\nCantidad negativos {num_neg}\nCantidad positivos {num_pos}')
